@@ -1,0 +1,21 @@
+[project]
+name = "Log-structured-file-IO"
+version = "0.1.0"
+description = "橙子夏令营的第二个实验"
+authors = [
+    {name = "BigOrangeQWQ",email = "2284086963@qq.com"},
+]
+dependencies = [
+    "pytest>=8.2.2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
