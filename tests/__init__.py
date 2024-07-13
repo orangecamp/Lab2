@@ -1,5 +1,6 @@
 import subprocess
 
+    
 def run_command(args):
 	"""运行命令行程序并返回输出"""
 	result = subprocess.run(
